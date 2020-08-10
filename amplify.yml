@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - nvm use $VERSION_NODE_12
-        - cd $_FRONTEND/$_FRONTEND_VERSION
+        - cd /$_FRONTEND/$_FRONTEND_VERSION
         - npm install
     # IMPORTANT - Please verify your build commands
     build:
