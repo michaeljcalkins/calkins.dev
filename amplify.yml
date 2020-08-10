@@ -3,10 +3,11 @@ frontend:
   phases:
     # IMPORTANT - Please verify your build commands
     build:
-      commands: []
+      commands:
+        - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: ./build
+    baseDirectory: /$_FRONTEND/$_FRONTEND_VERSION/build
     files:
       - "**/*"
   cache:
