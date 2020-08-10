@@ -1,6 +1,11 @@
 version: 1
 frontend:
   phases:
+    preBuild:
+      commands:
+        - nvm use $VERSION_NODE_12
+        - cd $_FRONTEND/$_FRONTEND_VERSION
+        - npm install
     # IMPORTANT - Please verify your build commands
     build:
       commands:
@@ -11,4 +16,5 @@ frontend:
     files:
       - "**/*"
   cache:
-    paths: []
+    paths:
+      - /$_FRONTEND/$_FRONTEND_VERSION/node_modules/**/*
