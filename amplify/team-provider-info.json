@@ -1,0 +1,15 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-calkinsdev-local-225732-authRole",
+            "UnauthRoleArn": "arn:aws:iam::804582181096:role/amplify-calkinsdev-local-225732-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::804582181096:role/amplify-calkinsdev-local-225732-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-calkinsdev-local-225732-deployment",
+            "UnauthRoleName": "amplify-calkinsdev-local-225732-unauthRole",
+            "StackName": "amplify-calkinsdev-local-225732",
+            "StackId": "arn:aws:cloudformation:us-east-1:804582181096:stack/amplify-calkinsdev-local-225732/384a3360-da05-11ea-9788-0e3edd8361ed",
+            "AmplifyAppId": "d1ocncf13o8ah9"
+        }
+    }
+}
