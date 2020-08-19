@@ -1,15 +1,15 @@
 {
-    "front": {
+    "master": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-calkinsdev-front-233443-authRole",
-            "UnauthRoleArn": "arn:aws:iam::804582181096:role/amplify-calkinsdev-front-233443-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::804582181096:role/amplify-calkinsdev-front-233443-authRole",
+            "AuthRoleName": "amplify-calkinsdev-master-23840-authRole",
+            "UnauthRoleArn": "arn:aws:iam::804582181096:role/amplify-calkinsdev-master-23840-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::804582181096:role/amplify-calkinsdev-master-23840-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-calkinsdev-front-233443-deployment",
-            "UnauthRoleName": "amplify-calkinsdev-front-233443-unauthRole",
-            "StackName": "amplify-calkinsdev-front-233443",
-            "StackId": "arn:aws:cloudformation:us-east-1:804582181096:stack/amplify-calkinsdev-front-233443/405c2530-ddf8-11ea-a4e4-12c1d85cca19",
-            "AmplifyAppId": "d236jpd6dcxnaw"
+            "DeploymentBucketName": "amplify-calkinsdev-master-23840-deployment",
+            "UnauthRoleName": "amplify-calkinsdev-master-23840-unauthRole",
+            "StackName": "amplify-calkinsdev-master-23840",
+            "StackId": "arn:aws:cloudformation:us-east-1:804582181096:stack/amplify-calkinsdev-master-23840/c3d110f0-e1ff-11ea-be5c-0abd62a7624a",
+            "AmplifyAppId": "d40lszxbzz0i3"
         }
     }
 }
